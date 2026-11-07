@@ -6,20 +6,18 @@
 
 ## Conceptos clave
 
-- **Concepto:** definición breve.
+**Definición de CPU**
 
-## Tabla resumen
+- La CPU (Central Processing Unit) se considera como “el cerebro de cualquier Sistema Informático”. Se encarga de buscar, decodificar y ejecutar todas las instrucciones del ordenador que se dividen en sistema operativo,  componentes y programas.
 
-| Tipo | Dato clave | Cuándo se usa |
-|---|---|---|
+**Los núcleos y sus tipos**
 
-## Datos que hay que saberse
+- Un núcleo es una unidad física de procesamiento dentro de la CPU. El tener varios permite ejecutar varias tareas a la vez, así los programas pueden repartir el trabajo.
+ - P-cores (Performance cores o núcleos de rendimiento): están diseñados para tareas exigentes priorizando así el rendimiento, como videojuegos, edición de vídeo o programas que necesitan mucha capacidad de respuesta.
+ - E-cores (Efficiency cores o núcleos de eficiencia): están diseñados para tareas más ligeras o secundarias buscando priorizar el bajo consumo en actividades del sistema y aplicaciones que no necesitan tanta potencia.
 
-## Preguntas tipo test (8)
+## Preguntas tipo test
 
-1. Pregunta
-   - a) …
-   - b) …  ← correcta
-   - c) …
-   - d) …
-   - Explicación: …
+[Preguntas CPU](https://play.kahoot.it/#/?quizId=7aebc689-41e8-42b3-be76-897f8ead83ed)
+
+
