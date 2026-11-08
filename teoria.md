@@ -4,9 +4,9 @@
 
 > Máximo 1 folio por las dos caras. Es lo que estudiará toda la clase para el test: claro, exacto y sin relleno.
 
-## Conceptos clave
+## CONCEPTOS CLAVE 
 
-**Definición de CPU**
+###Definición de CPU
 ---------------------
 La CPU (Central Processing Unit) se considera como “el cerebro de cualquier Sistema Informático”. Se encarga de buscar, decodificar y ejecutar todas las instrucciones del ordenador que se dividen en sistema operativo,  componentes y programas.
 
