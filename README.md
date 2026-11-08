@@ -2,15 +2,13 @@
 
 **Grupo:** Iván Jelti Roldán (@IvanJelti) · Nombre Clemente Gallego Pérez (@Clemente311)
 
-> Máximo 2 folios por las dos caras (unas 1.600–2.000 palabras) y al menos 3 imágenes en `img/`.
-
 ## 1. Qué es y qué función cumple en el sistema
 
 - La CPU (Central Processing Unit) se considera como “el cerebro de cualquier Sistema Informático”. Se encarga de buscar, decodificar y ejecutar todas las instrucciones del ordenador que se dividen en sistema operativo,  componentes y programas.
 
 ## 2. Cómo funciona por dentro
 
-![Esquema de funcionamiento](img/ejemplo-esquema.svg)
+[La CPU por dentro](img/Interior_CPU.jpg)
 
 ## 3. Características, unidades y cómo se miden
 
@@ -57,7 +55,7 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 | Gráficos integrados básicos | Puede dar imagen sin una tarjeta gráfica dedicada. | Bien para tareas sencillas, no para juegos exigentes. | Ofimática y diagnóstico del equipo. |
 | Disipador no incluido | La refrigeración se compra aparte. | Hay que contar con ese gasto. | Completar el montaje del ordenador. |
 
-<!-- Aquí va la foto o captura del modelo: ![Foto del modelo](img/modelo.jpg) -->
+[Ryzen 7 9800x3d](/img/Encapsulado_Ryzen7_9800x3d.jpg) [Caja Ryzen 7 9800x3d](/img/Caja_Ryzen7_9800x3d.jpg)
 
 ## 6. Averías típicas y errores al elegirla o instalarla
 
@@ -102,3 +100,5 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 - Para entrenar modelos grandes o ejecutar cargas intensivas, la GPU y su memoria suelen ser más importantes que elegir entre estas dos CPU.
 
 - Si utilizas ChatGPT u otra IA alojada en la nube, el procesamiento del modelo se realiza en servidores, por lo que no necesitas cambiar el procesador para usarla. La elección del hardware depende de dónde y cómo se ejecute la IA.
+
+[Ryzen 7 9800x3d](/img/DIE_Ryzen7_9800x3d.png) [Ryzen 7 9950X](/img/DIE_Ryzen9_9950X.png)
