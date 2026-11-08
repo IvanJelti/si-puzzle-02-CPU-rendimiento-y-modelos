@@ -6,7 +6,7 @@
 
 ## CONCEPTOS CLAVE 
 
-###Definición de CPU
+### Definición de CPU
 ---------------------
 La CPU (Central Processing Unit) se considera como “el cerebro de cualquier Sistema Informático”. Se encarga de buscar, decodificar y ejecutar todas las instrucciones del ordenador que se dividen en sistema operativo,  componentes y programas.
 
