@@ -2,11 +2,9 @@
 
 **Grupo:** Iván Jelti Roldán · Clemente Gallego Pérez
 
-> Máximo 1 folio por las dos caras. Es lo que estudiará toda la clase para el test: claro, exacto y sin relleno.
-
 ## CONCEPTOS CLAVE 
 
-### Definición de CPU
+**Definición de CPU**
 ---------------------
 La CPU (Central Processing Unit) se considera como “el cerebro de cualquier Sistema Informático”. Se encarga de buscar, decodificar y ejecutar todas las instrucciones del ordenador que se dividen en sistema operativo,  componentes y programas.
 
@@ -54,6 +52,26 @@ El TDP (Thermal Design Power) se muestra en vatios (W), pero no significa qué e
 La litografía es el proceso que permite grabar los transistores de un procesador sobre una oblea de silicio mediante radiación ultravioleta. De este proceso depende directamente el rendimiento y la eficiencia energética del chip.
 
 Los avances en la litografía permiten reducir el tamaño de los transistores aumentando la densidad por núcleo y aumentando también la memoria caché, dicho avance hace que sea posible aumentar la frecuencia y bajar el consumo en cada núcleo mejorando en gran medida el rendimiento del procesador tanto en multitarea como en tareas exigentes.
+
+**Socket**
+----------
+Con el salto al empaquetado LGA (Land Grid Array) de 1718 contactos, AM5 representa la plataforma principal de AMD. Admite las familias Ryzen 7000, Ryzen 9000 (Zen 5) y está preparado para recibir la futura arquitectura Zen 6. Dejando atrás el AM4 que empleaba un formato PGA (Pin Grid Array) Esta transición permite un diseño de CPU más robusto y minimiza el riesgo de pines doblados en el montaje.
+
+El socket LGA1851 se diseñó para la arquitectura Arrow Lake (Intel Core Ultra Serie 200), marcando el fin de la nomenclatura «Core i» .A pesar de ser iguales fisicamente a los de LGA1700, el aumento en la densidad de pines (1851 contactos frente a 1700) impide cualquier tipo de compatibilidad cruzada entre procesadores.
+
+Ambos sockets tienen soporte DDR5 y PCIe5.0.
+
+**x86 frente a ARM**
+---------------------
+x86 y ARM son arquitecturas de procesador: definen las instrucciones y reglas con las que se ejecutan los programas.
+
+x86-64, usado principalmente en PCs con Intel o AMD, prioriza el rendimiento con mayor consumo y ofrece alta compatibilidad con juegos y software de PC. ARM64, presente en dispositivos de Apple, Qualcomm y otros fabricantes, se usa en móviles, portátiles y servidores, y destaca por su alta eficiencia energética, ideal para dispositivos con batería
+
+Hoy la diferencia depende más del diseño de cada chip que del juego de instrucciones. El principal obstáculo de ARM en Windows sigue siendo la compatibilidad con software antiguo, que se resuelve mediante emulación, aunque con rendimiento variable.
+
+**Compatibilidad y emulación**
+-------------------------------
+Los programas están diseñados para una arquitectura concreta. Si no existe versión nativa, puede requerir emulación. En Windows con ARM, muchas aplicaciones x86 funcionan así, pero el rendimiento varía y algunos programas o periféricos pueden no ser compatibles.
 
 ## Preguntas tipo test
 
