@@ -9,6 +9,7 @@
 ## 2. Cómo funciona por dentro
 
 [La CPU por dentro](img/Interior_CPU.jpg)
+[Presentación](img/Presentacion_Interior_CPU.pdf)
 
 ## 3. Características, unidades y cómo se miden
 
