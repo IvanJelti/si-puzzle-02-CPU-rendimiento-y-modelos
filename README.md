@@ -12,8 +12,6 @@
 
 ![Esquema de funcionamiento](img/ejemplo-esquema.svg)
 
-<!-- Guardad vuestras imágenes en img/ y cambiad el nombre del archivo en la línea de arriba. -->
-
 ## 3. Características, unidades y cómo se miden
 
 | Característica | Unidad | Valores típicos hoy | Qué significa |
@@ -63,6 +61,20 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 
 ## 6. Averías típicas y errores al elegirla o instalarla
 
+- Un fallo de arranque o un bloqueo no significa necesariamente que la CPU esté averiada: también puede deberse a la BIOS, la RAM o el montaje.
+
+| Problema o error | Qué ocurre | Cómo evitarlo o solucionarlo |
+|---|---|---|
+| Elegir componentes incompatibles | El procesador necesita una placa AM5 y memoria DDR5; no sirve para una placa AM4 ni para RAM DDR4. | Comprobar la lista de CPU compatibles y la memoria admitida por la placa antes de comprar. |
+| BIOS sin soporte para el procesador | El ordenador puede encenderse, pero no arrancar correctamente. | Comprobar la versión de BIOS necesaria y actualizar siguiendo las instrucciones del fabricante. |
+| Refrigeración insuficiente o mal montada | La CPU puede calentarse demasiado y reducir su rendimiento. | Utilizar un disipador adecuado, comprobar la pasta térmica y revisar el montaje y los ventiladores. |
+| Colocar mal la CPU o forzar el montaje | Puede provocar daños físicos o fallos de funcionamiento. | Respetar la orientación indicada y seguir el manual, sin forzar el procesador ni el mecanismo de cierre. |
+| RAM mal instalada o configuración inestable | Pueden aparecer bloqueos, reinicios o ausencia de imagen. | Colocar los módulos en las ranuras recomendadas y probar con los ajustes predeterminados de la BIOS. |
+| Ajustes de overclocking inestables | El equipo puede fallar aunque los componentes estén en buen estado. | Volver a los valores predeterminados antes de diagnosticar una avería. |
+| Comprar la CPU sin contar con la refrigeración | El Ryzen 7 9800X3D no incluye disipador. | Incluir un sistema de refrigeración compatible en el presupuesto. |
+
+- La **prevención** más importante es comprobar la compatibilidad antes de comprar y seguir los manuales de la placa base y del disipador durante el montaje.
+
 ## 7. Fuentes
 
 [Fuentes](/img/CPU_FUENTES.pdf)
@@ -70,4 +82,23 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 
 ## Uso de IA
 
-Qué preguntamos a Jarvis u otra IA y cómo comprobamos sus respuestas.
+- Para compararlo con otra CPU de sobremesa, elijo el Ryzen 9 9950X: entre ambos, es la opción más recomendable para trabajos de IA que aprovechan muchos núcleos. El Ryzen 7 9800X3D está especialmente orientado a juegos. Esto no significa que el 9950X sea más rápido en todas las aplicaciones de IA.
+
+### Comparación sencilla
+
+| Característica | Ryzen 7 9800X3D | Ryzen 9 9950X |
+|---|---|---|
+| Núcleos e hilos | 8 núcleos y 16 hilos | 16 núcleos y 32 hilos |
+| Frecuencia máxima | Hasta 5,2 GHz | Hasta 5,7 GHz |
+| Caché total L2 + L3 | 104 MB | 80 MB |
+| TDP | 120 W | 170 W |
+| Principal ventaja | Gran caché, especialmente útil en juegos | Más núcleos para repartir trabajos exigentes |
+
+### ¿Cuál elegir para IA?
+
+- Ryzen 9 9950X: lo elegiría para preparar datos, ejecutar varias tareas y trabajar con programas de IA que aprovechen sus 16 núcleos. La ventaja depende del programa y del modelo utilizado; no se puede deducir una mejora exacta solo por tener el doble de núcleos.
+- Ryzen 7 9800X3D: lo elegiría si la prioridad es jugar y la IA es un uso secundario. Su caché adicional no garantiza que supere al 9950X en IA.
+
+- Para entrenar modelos grandes o ejecutar cargas intensivas, la GPU y su memoria suelen ser más importantes que elegir entre estas dos CPU.
+
+- Si utilizas ChatGPT u otra IA alojada en la nube, el procesamiento del modelo se realiza en servidores, por lo que no necesitas cambiar el procesador para usarla. La elección del hardware depende de dónde y cómo se ejecute la IA.
