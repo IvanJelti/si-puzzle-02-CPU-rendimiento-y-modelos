@@ -4,7 +4,10 @@
 
 ## 1. Qué es y qué función cumple en el sistema
 
-- La CPU (Central Processing Unit) se considera como “el cerebro de cualquier Sistema Informático”. Se encarga de buscar, decodificar y ejecutar todas las instrucciones del ordenador que se dividen en sistema operativo,  componentes y programas.
+- El funcionamiento de la CPU (Central Processing Unit) requiere de que se repita billones de veces por segundo estos tres pasos conocidos  como Fetch, Dec>
+	- Fetch o Buscar: El procesador  busca y obtiene la instrucción que viene desde la memoria.
+	- Decode o Decodificar: El procesador decodifica la información que ahora posee para poder entender qué tiene que hacer a partir de ese momento.
+	- Excute o Ejecutar: Una vez que el procesador entiende qué tiene que hacer, lo hace. A partir de ese momento manda instrucciones al resto de los componen>
 
 ## 2. Cómo funciona por dentro
 
@@ -30,10 +33,35 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 ## 4. Tipos, evolución y estándares actuales
 
 **Tipos**
-- Las CPU pueden clasificarse por su uso: sobremesa, portátiles y servidores. También por su arquitectura: x86-64, habitual en Intel y AMD, y ARM64, utilizada por Apple, Qualcomm y otros fabricantes.
+- En el mundo de los procesadores existen varios tipos siendo uno de ellos la CPU  y se pueden organizar de la siguiente manera:
+
+- **APU:** La Accelerated Processing Unit es un chip "dos en uno" que combina un procesador tradicional (CPU) y una tarjeta gráfica (GPU) en una sola pieza.
+- **NPU:** La Neural Processing Unit es un microchip especializado en ejecutar tareas de inteligencia artificial (IA).
+- **CPU:**  La Central Processing Unit ha sido ya explicada anteriormente pero os vamos a explicar cómo se estructuran sus modelos según su fabricante y gama principal. Intel (I), AMD (RYZEN).
+	
+	- (i3 / Ryzen 3): Perfecto para el ámbito académico, trabajo de oficina y contenido multimedia ligero.
+	- (i5 / Ryzen 5): Gama media, equilibrado para gaming moderado y multitarea.
+	- (i7 / Ryzen 7): Gama alta, para juegos exigentes, edición de vídeo en 4K y diseño.
+	- (i9 / Ryzen 9): Gama máxima o entusiasta; para producción audiovisual pesada, modelado 3D y cargas de trabajo extremas.
+- Intel
+	- Intel Core Ultra: Nuevas generaciones enfocadas en eficiencia e integración de Inteligencia Artificial (NPU).
+	- Intel Xeon: Diseñados para servidores y estaciones de trabajo profesionales que funcionan de forma continua.
+- AMD
+	- Athlon: Gama de entrada para tareas domésticas sencillas.
+	- Threadripper: Los procesadores AMD Ryzen Threadripper están pensados para estaciones de trabajo profesionales y entusiastas extremos, un ámbito donde un PC normal se queda corto, pero no se necesita un servidor de empresa. La gama EPYC de este tipo de procesador está orientada a servidores y centros de datos.
+
+**SoC:** Es un circuito integrado que contiene todos o casi todos los componentes de un ordenador en un mismo sitio. Un buena comparación entre CPU y SoC seria Apple con sus series M y A que se explican de la siguiente forma:
+
+	- La serie M (M1, M2, M3, M4 y sus variantes Pro, Max y Ultra): Son procesadores exclusivos de los ordenadores Mac, y destacan por su altísima eficiencia energética y potencia integrada.
+	- La serie A(A18, 19 Pro, 20): Son procesadores específicamente para dispositivos móviles (iPhone y los modelos base de iPad). Priorizan una eficiencia térmica extrema y el ahorro de batería.
 
 **Evolución**
-- Han pasado de tener un solo núcleo a incorporar varios. La mejora ya no consiste solo en aumentar los GHz: también se busca ejecutar más tareas a la vez, ampliar la caché y reducir el consumo. Algunos diseños combinan núcleos de rendimiento y de eficiencia, como los P-cores y E-cores de Intel.
+- La evolución de la CPU se resume en hacer los procesadores cada vez más pequeños, rápidos y eficientes a lo largo de cuatro grandes saltos tecnológicos:
+
+	- Tubos de vacío (años 40): Eran máquinas gigantescas que ocupaban habitaciones enteras y consumían muchísima electricidad.
+	- Transistores y microchips (años 50-70): Se redujo drásticamente el tamaño, culminando en 1971 con el Intel 4004, el primer microprocesador en un solo chip de silicio.
+	- Salto a los 32/64 bits y multinúcleo (años 80-2000): Aumentó la capacidad de procesar datos y se empezaron a poner varios núcleos dentro de un mismo chip para hacer varias tareas a la vez.
+	- Miniaturización e IA (2010-Presente): Hoy tienen miles de millones de transistores microscópicos, consumen muy poca batería (como en los móviles) e incluyen piezas especiales para acelerar la Inteligencia Artificial.
 
 **Estándares actuales**
 - En los PC de sobremesa modernos con Sockets AM5 en AMD o LGA1851 en Intel, destacan la memoria DDR5 y las conexiones PCIe 5.0 para GPU y SSD
