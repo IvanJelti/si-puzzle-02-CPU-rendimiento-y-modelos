@@ -50,7 +50,7 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 	- Athlon: Gama de entrada para tareas domésticas sencillas.
 	- Threadripper: Los procesadores AMD Ryzen Threadripper están pensados para estaciones de trabajo profesionales y entusiastas extremos, un ámbito donde un PC normal se queda corto, pero no se necesita un servidor de empresa. La gama EPYC de este tipo de procesador está orientada a servidores y centros de datos.
 
-**SoC:** Es un circuito integrado que contiene todos o casi todos los componentes de un ordenador en un mismo sitio. Un buena comparación entre CPU y SoC seria Apple con sus series M y A que se explican de la siguiente forma:
+- **SoC:** Es un circuito integrado que contiene todos o casi todos los componentes de un ordenador en un mismo sitio. Un buena comparación entre CPU y SoC seria Apple con sus series M y A que se explican de la siguiente forma:
 
 	- La serie M (M1, M2, M3, M4 y sus variantes Pro, Max y Ultra): Son procesadores exclusivos de los ordenadores Mac, y destacan por su altísima eficiencia energética y potencia integrada.
 	- La serie A(A18, 19 Pro, 20): Son procesadores específicamente para dispositivos móviles (iPhone y los modelos base de iPad). Priorizan una eficiencia térmica extrema y el ahorro de batería.
