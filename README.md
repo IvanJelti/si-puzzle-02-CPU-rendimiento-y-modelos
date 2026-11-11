@@ -52,8 +52,8 @@ Los valores son orientativos para procesadores de sobremesa; cambian según el m
 
 **SoC:** Es un circuito integrado que contiene todos o casi todos los componentes de un ordenador en un mismo sitio. Un buena comparación entre CPU y SoC seria Apple con sus series M y A que se explican de la siguiente forma:
 
-	* La serie M (M1, M2, M3, M4 y sus variantes Pro, Max y Ultra): Son procesadores exclusivos de los ordenadores Mac, y destacan por su altísima eficiencia energética y potencia integrada.
-	* La serie A(A18, 19 Pro, 20): Son procesadores específicamente para dispositivos móviles (iPhone y los modelos base de iPad). Priorizan una eficiencia térmica extrema y el ahorro de batería.
+	- La serie M (M1, M2, M3, M4 y sus variantes Pro, Max y Ultra): Son procesadores exclusivos de los ordenadores Mac, y destacan por su altísima eficiencia energética y potencia integrada.
+	- La serie A(A18, 19 Pro, 20): Son procesadores específicamente para dispositivos móviles (iPhone y los modelos base de iPad). Priorizan una eficiencia térmica extrema y el ahorro de batería.
 
 **Evolución**
 - La evolución de la CPU se resume en hacer los procesadores cada vez más pequeños, rápidos y eficientes a lo largo de cuatro grandes saltos tecnológicos:
